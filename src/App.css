@@ -1,0 +1,76 @@
+
+.app-shell {
+  min-height: 100vh;
+  background: #0b1120;
+  color: #f8fafc;
+}
+
+.app-header {
+  padding: 24px 20px;
+  border-bottom: 1px solid #243247;
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #38bdf8;
+}
+
+.app-content {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 32px 20px 110px;
+}
+
+.section-label {
+  color: #38bdf8;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.app-content h2 {
+  margin: 12px 0 24px;
+  font-size: 28px;
+}
+
+.content-card {
+  background: #172338;
+  border: 1px solid #293b55;
+  border-radius: 16px;
+  padding: 24px;
+  color: #cbd5e1;
+}
+
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-around;
+  background: #111b2e;
+  border-top: 1px solid #293b55;
+  padding: 10px 8px max(12px, env(safe-area-inset-bottom));
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  flex: 1;
+  padding: 8px 2px;
+  border: none;
+  background: transparent;
+  color: #94a3b8;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.nav-icon {
+  font-size: 24px;
+}
+
+.nav-item.active {
+  color: #38bdf8;
+}
